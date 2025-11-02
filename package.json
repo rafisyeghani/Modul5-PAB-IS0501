@@ -1,7 +1,7 @@
 {
   "name": "nav-two",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,10 +9,23 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@gluestack-style/react": "^1.0.57",
+    "@gluestack-ui/config": "^1.1.20",
+    "@gluestack-ui/themed": "^1.1.73",
     "expo": "~54.0.20",
+    "expo-constants": "^18.0.10",
+    "expo-linking": "^8.0.8",
+    "expo-router": "^6.0.14",
     "expo-status-bar": "~3.0.8",
     "react": "19.1.0",
-    "react-native": "0.81.5"
+    "react-native": "0.81.5",
+    "react-native-gesture-handler": "^2.29.0",
+    "react-native-safe-area-context": "^5.6.2",
+    "react-native-screens": "~4.16.0",
+    "react-native-svg": "^15.12.1"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "react-dom": "^19.2.0"
+  }
 }
